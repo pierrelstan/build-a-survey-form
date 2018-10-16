@@ -1,0 +1,112 @@
+.container-fluid {
+  background-color: #FF007D;
+  padding-bottom: 60px;
+}
+.centered i {
+  display: block;
+ text-align: center;
+  font-size: 150px;
+}
+#title {
+  padding-top: 40px;
+  color: #ffffff;
+    text-align: center;
+   font-weight: 800;
+}
+#description {
+  padding-top: 20px;
+    text-align: center;
+  font-size: 25px;
+ font-weight: 800; 
+}
+#survey-form {
+  margin-top: 66px;
+}
+#name-label {
+font-size: 20px;
+  font-weight: 500; 
+}
+#email-label {
+font-size: 20px;
+  font-weight: 500; 
+}
+#number-label {
+font-size: 20px;
+  font-weight: 500; 
+}
+
+#main {
+  background-color: #BF005E;
+  color: white;
+  margin-top: 75px;
+  margin-right: 160px;
+  margin-left: 160px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+
+
+
+@media (max-width: 384px) {
+  #title {
+  padding-top: 20px;
+  color: #ffffff;
+    text-align: center;
+   font-weight: 300;
+}
+  #name-label {
+font-size: 10px;
+  font-weight: 500; 
+}
+#email-label {
+font-size: 10px;
+  font-weight: 500; 
+}
+#number-label {
+font-size: 10px;
+  font-weight: 500; 
+}
+  .centered i {
+  display: block;
+ text-align: center;
+  font-size: 50px;
+}
+ #description {
+  padding-top: 20px;
+    text-align: center;
+  font-size: 15px;
+ font-weight: 800; 
+}
+
+ h3 {
+    font-size: 6px;
+   font-weight: 300; 
+  }
+  #main {
+  background-color:  #BF005E;
+  margin-top: 15px;
+  margin-right: 13px;
+  margin-left: 13px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+}
+@media (max-width: 800px) {
+
+ h3 {
+    font-size: 22px;
+  }
+  #main {
+  background-color: #BF005E;
+  margin-top: 25px;
+  margin-right: 46px;
+  margin-left: 46px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}

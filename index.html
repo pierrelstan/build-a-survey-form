@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Build a Survey Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div class="container-fluid">
+  <h1 id="title">Survey Form</h1>
+  <div id="main">
+    <div class="centered"><i class="fab fa-free-code-camp "></i></div>
+    <p id="description">Let us know how we can improve FreeCodeCamp</p>
+    <form class="col-md-12" id="survey-form" action="">
+      <div class="form-group">
+        <label for="name" id="name-label">Name </label>
+        <input type="text" class="form-control" placeholder="Enter your name" name="name" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email" id="email-label">Email address</label>
+        <input type="email" class="form-control" placeholder="Enter your email" id="email" name="email" required>
+        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group ">
+        <label for="number" id="number-label">Age</label>
+        <input type="number" class="form-control" name="quantity" min="1" max="100" placeholder="Age" id="number" name="age" required><br>
+      </div>
+      <div class="form-group">
+        <label for="form-control"><h4>* Which option best describes your current role?</h4></label>
+        <select class="form-control" id="dropdown">
+      <option  value="Student">Student</option>
+      <option   value="Full Time Job">Full Time Job</option>
+      <option  value="Full time Learner">Full Time Learner</option>
+      <option   value="Prefer not to say">Prefer not to say</option>
+      <option   value="Other">Other</option>
+       
+    </select>
+        <fieldset class="form-group">
+          <h4>* How likely is that you would recommend freeCodeCamp to a friend?</h4>
+          <div class="form-check">
+            <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="Definitely" checked>
+        Definitely
+      </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value=" Maybe">
+        Maybe
+      </label>
+          </div>
+          <div class="form-check ">
+            <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value=" Other">
+       Other
+      </label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="form-group">
+        <label for="form-control"><h4>* What do you like most in FCC:</h4></label>
+        <select class="form-control" id="dropdown">
+      <option  value="Select an Option">Select an Option</option>
+      <option  value="Challenges">Challenges</option>
+      <option  value="Projects">Projects</option>
+      <option  value="Community">Community</option>
+      <option  value="Open Source">Open Source</option>
+       
+    </select>
+
+      </div>
+      <fieldset class="form-group">
+        <h4>* Things that should be improved in the future (Check all that apply):</h4>
+        <div class="form-check">
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value=" Front-end Projects">
+              <label class="form-check-label" for="gridCheck1">
+         Front-end Projects
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value=" Back-end Projects">
+              <label class="form-check-label" for="gridCheck1">
+          Back-end Projects
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value=" Data Visualization">
+              <label class="form-check-label" for="gridCheck1">
+          Data Visualization
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="Challenges">
+              <label class="form-check-label" for="gridCheck1">
+         Challenges
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="Open Source Community">
+              <label class="form-check-label" for="gridCheck1">
+          Open Source Community
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="Gitter help rooms">
+              <label class="form-check-label" for="gridCheck1">
+Gitter help rooms
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="Videos">
+              <label class="form-check-label" for="gridCheck1">
+         Videos
+        </label>
+            </div>
+          </div>
+
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="City Meetups">
+              <label class="form-check-label" for="gridCheck1">
+          City Meetups
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value=" Wiki">
+              <label class="form-check-label" for="gridCheck1">
+          Wiki
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="Forum">
+              <label class="form-check-label" for="gridCheck1">
+         Forum
+        </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" value="Additional Courses">
+              <label class="form-check-label" for="gridCheck1">
+      Additional Courses
+        </label>
+            </div>
+          </div>
+
+      </fieldset>
+      <div class="form-group">
+        <label for="Comment"><h4>* Any Comments or Suggestions?</h4></label>
+        <textarea class="form-control" id="Comment" rows="3" placeholder="Enter your comment here..." name="comment" cols required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-dark btn-sm btn-block" id="submit">Submit</button>
+
+    </form>
+    </div>
+
+  </div>
+  <script src='https://rawgit.com/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
